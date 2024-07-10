@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metric/Imperial unit conversion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Unit Converter</h1>
+        <div class="converter">
+            <input type="text" id="inputValue" placeholder="Enter value">
+            <select id="inputUnit">
+                <option value="meters">Meters</option>
+                <option value="feet">Feet</option>
+                <option value="kilograms">Kilograms</option>
+                <option value="pounds">Pounds</option>
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+            </select>
+            <select id="outputUnit">
+                <option value="feet">Feet</option>
+                <option value="meters">Meters</option>
+                <option value="pounds">Pounds</option>
+                <option value="kilograms">Kilograms</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="celsius">Celsius</option>
+            </select>
+            <button id="convertButton">Convert</button>
+        </div>
+        <div class="result">
+            <h2>Result: <span id="resultValue">0</span></h2>
+        </div>
+    </div>
+
+    
+
+
+    <script src="index.js"></script>
+</body>
+</html>
